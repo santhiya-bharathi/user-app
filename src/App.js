@@ -98,7 +98,7 @@ function Home() {
       <h2 className="home-hello">Hello All!!!</h2>
       <img src="https://acegif.com/wp-content/uploads/2021/01/welcome-m.gif" alt="welcome"/>
       <div>
-      <Button onClick={()=>history.push("/userlist") }variant="contained"><ArrowForwardIcon/>Go to User-Page</Button>
+      <Button onClick={()=>history.push("/userlist") }variant="contained">Go to User-Page<ArrowForwardIcon/></Button>
       </div>
     </div>
   );
